@@ -1,0 +1,9 @@
+.dockerignore
+.git
+.github
+.gitignore
+Procfile
+README.md
+app.json
+docker-compose.yml
+runtime.txt
