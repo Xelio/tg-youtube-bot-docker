@@ -1,3 +1,5 @@
 pyrogram
 pytube
 youtube-search-python
+moviepy
+TgCrypto
