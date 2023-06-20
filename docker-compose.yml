@@ -1,0 +1,10 @@
+version: "3.0"
+services:
+  tg-youtube-bot-docker:
+    image: ghcr.io/xelio/tg-youtube-bot-docker:latest
+    container_name: tg-youtube-bot-docker
+    environment:
+      - API_ID=${API_ID}
+      - API_HASH=${API_HASH}
+      - BOT_TOKEN=${BOT_TOKEN}
+    restart: always
